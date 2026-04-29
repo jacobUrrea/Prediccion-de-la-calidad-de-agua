@@ -19,6 +19,14 @@ Se tiene que el tratamiento del agua debe ser indispensable para garantizar la p
 
 Implementar modelos de predicción utilizando la biblioteca de aprendizaje automático MLlib PySpark, con el fin de explorar y aplicar técnicas de IA en entornos de procesamiento con alto volúmen de datos.
 
+## **Tecnologías Utilizadas**
+
+- **Apache Spark / PySpark** — Procesamiento distribuido y consultas SQL
+- **Pandas y NumPy** — Manipulación y transformación de datos en memoria
+- **Matplotlib y Seaborn** — Visualización estadística y gráficas exploratorias
+- **GeoPandas** — Análisis geoespacial y mapas coropléticos
+- **Scikit-Learn** — División de datos en entrenamiento y prueba
+- **TensorFlow y Keras** — Construcción y entrenamiento de la red neuronal
 
 ## **Metodología**
 
@@ -31,3 +39,10 @@ Implementar modelos de predicción utilizando la biblioteca de aprendizaje autom
 4.- Evaluación de los modelos: medidas de rendimiento tales como: precisión (precision), exactitud (accuracy), recall, F1 Score,entre otras.
 
 5.- Se tiene como referencia de la calidad de los parámetros del agua, la referencia: https://www.intechopen.com/chapters/69568
+
+## **Resultados Clave**
+
+- Se logró construir un índice de calidad del agua (WQI) representativo a partir de variables
+- El análisis geográfico permitió identificar diferencias significativas en la calidad del agua entre los distintos estados de India
+- El modelo de red neuronal demostró un desempeño satisfactorio en la predicción del WQI sobre el conjunto de prueba
+- Se identificaron parámetros críticos como las bacterias coliformes fecales y el oxígeno disuelto como los de mayor impacto en la calidad del recurso hídrico
